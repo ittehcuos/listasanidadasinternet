@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--Icons cdm-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+       <!--Font awesom-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+       <!--CSS style-->
+       <link rel="stylesheet" href="style.css">
+       <title>Listas anidadas</title>
+</head>
+<body>
+       <div class="container">
+              <h1>Internet</h1>
+              <i class="fa-light fa-globe" style="font-size: 70px;"></i>
+              <h2>Contenido</h2>
+              <ol start="1" class="primera" style="list-style: none;">
+                     <li class="uno">Principales protocolos</li>
+                     <li class="dos">Formas de conectarse</li>
+              </ol>
+              <ol start="1" class="segunda">
+                     <h2><li class="quinta">Principales protocolos</li></h2>
+                     <ul class="octava">
+                            <li class="cuarta">Transmisión de ficheros:</li>
+                            <ul >
+                                   <li class="tercera">FTP</li>
+                            </ul>
+                            <li class="cuarta">Correo electrónico:</li>
+                            <ul style="list-style: circle;" >
+                                   <li class="tercera">IMAP</li>
+                                   <li class="tercera">POP</li>
+                                   <li class="tercera">SMTP</li>
+                            </ul>
+                     </ul>
+              </ol>
+              <div class="sexta">
+                     <h2><li class="quinta">Formas de conectarse</li></h2>
+                     <dl class="septima">
+                            <dt class="cuarta"> Red Telefónica Conmutada (TRC):</dt>
+                            <dd>La línea telefónica de toda la vida. Para acceder a Internet es necesario un módem.</dd>
+                            <dt class="cuarta"> Red Digital de Servicios Integrados (RDSI):</dt>
+                            <dd>Una línea telefónica especial. Para acceder a Internet es necesario un módem RDSI.</dd>
+                            <dt class="cuarta"> Linea de Abonado Digital Asimétrica (ADSL):</dt>
+                            <dd>Se basa en la conversión de una línea RTC en una línea de alta velocidad. Para acceder a Internet es necesario un módem ADSL.</dd>
+                            <dt class="cuarta"> Fibra Óptica:</dt>
+                            <dd>Una línea de fíbra óptica. Normalmente la fibra óptica no llega hastael usuario final, porlo que el término más apropiado es Fíbrica híbrida  coaxial..</dd>
+                          </dl>
+              </div>
+       </div>
+</body>
+</html>
